@@ -90,7 +90,7 @@ console.log(5 > 10 && 15 > 20 || 30 < 40)
 //not (!)
 console.log(!true)
 console.log(!false)
-console.log(!(5 > 10 && 15 > 20))
+console.log(!(5 > 10 && 15 > 20));
 console.log(!(5 > 10 || 15 > 20))
 
 //Operador Ternario
@@ -99,17 +99,4 @@ let isRainning = true
 
 isRainning ? console.log("Esta lloviendo") : console.log("No esta lloviendo")
 
-//Version utilizando un if como interruptor
-
-let isRainning_1 
-
-rain = 0
-
-if (rain == 1){
-    isRainning_1 = true
-}   else if (rain = 0){
-    isRainning_1 = false
-}    
-
-isRainning_1 ? console.log("Esta lloviendo") : console.log("No esta lloviendo")
 
