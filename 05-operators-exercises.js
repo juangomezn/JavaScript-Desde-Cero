@@ -106,33 +106,33 @@ edad = 17
 tieneInvitacion = false
 esAcompañado = true
 
-if (edad >= 18 || tieneInvitacion && esAcompañado){
+if (edad >= 18 || tieneInvitacion && esAcompañado) {
     console.log("Puede ingresar al evento")
-} else if (edad >= 16 && tieneInvitacion || esAcompañado){
+} else if (edad >= 16 && tieneInvitacion || esAcompañado) {
     console.log("Puede ingresar al evento con condiciones")
 } else {
     console.log("No puede ingresar al evento")
 }
 
 // 8. Añade alguna negacion
-if ((edad >= 18 || tieneInvitacion) && !esAcompañado){
+if ((edad >= 18 || tieneInvitacion) && !esAcompañado) {
     console.log("Puede ingresar al evento solo")
-} else if (edad >= 16 && (tieneInvitacion || esAcompañado)){
+} else if (edad >= 16 && (tieneInvitacion || esAcompañado)) {
     console.log("Puede ingresar al evento con condiciones")
 } else {
     console.log("No puede ingresar al evento")
 }
 
 //9. Usa el operador ternario
-let isRainning_1 
+let isRainning_1
 
 rain = 0
 
-if (rain == 1){
+if (rain == 1) {
     isRainning_1 = true
-}   else if (rain = 0){
+} else if (rain = 0) {
     isRainning_1 = false
-}    
+}
 
 isRainning_1 ? console.log("Esta lloviendo") : console.log("No esta lloviendo")
 
@@ -142,9 +142,9 @@ temperatura = 28
 humedadTierra = 30
 estaLloviendo = false
 
-if ((horaActual < 10 || horaActual > 18) && humedadTierra < 40 && (!estaLloviendo)){
+if ((horaActual < 10 || horaActual > 18) && humedadTierra < 40 && (!estaLloviendo)) {
     console.log("🚿 Activando Sistema de Riego ...")
-    console.log("💧 Regando las plantas por 5 minutos") 
+    console.log("💧 Regando las plantas por 5 minutos")
 } else {
     console.log("⏸️ No es Necesario Regar Ahora")
 }

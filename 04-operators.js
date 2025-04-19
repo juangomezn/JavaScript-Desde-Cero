@@ -40,7 +40,7 @@ console.log(a <= b) //Menor o Igual que
 console.log(a == b) //Igual a
 console.log(a == 6) //Igualdad por valor
 console.log(a == "6") //Igualdad por valor
-console.log(a == a) 
+console.log(a == a)
 console.log(a === a) //Igualdad por identidad (tipo y valor)
 console.log(a === 6)
 console.log(a === "6")
@@ -85,7 +85,7 @@ console.log(5 > 10 || 15 > 20)
 console.log(5 < 10 || 15 < 20)
 console.log(5 < 10 || 15 > 20)
 
-console.log(5 > 10 && 15 > 20 || 30 < 40)   
+console.log(5 > 10 && 15 > 20 || 30 < 40)
 
 //not (!)
 console.log(!true)
