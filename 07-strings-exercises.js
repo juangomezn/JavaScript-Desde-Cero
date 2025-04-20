@@ -11,7 +11,7 @@ console.log(text.length)
 
 // 3. Muestra el primer ultimo caracter de un string
 let primerCaracter = text.charAt(0)
-let ultimoCaracter = text.charAt(text.length-1)
+let ultimoCaracter = text.charAt(text.length - 1)
 
 console.log(`El primer caracter de el string es ${primerCaracter} y el ultimo caracter del string es ${ultimoCaracter}`)
 
@@ -41,7 +41,7 @@ console.log(text.includes("Barcelona"))
 // 9. Comprueba si dos string son iguales
 text_2 = "string numero 1"
 text_3 = "string numero 1"
-text_4 = "string igual al string 1" 
+text_4 = "string igual al string 1"
 
 //Comparacion en la cual se muestra que son exactamente iguales
 if (text_2 === text_3) {
