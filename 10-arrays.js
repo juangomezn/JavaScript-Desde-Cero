@@ -94,11 +94,11 @@ console.log(myNewArray) //En este  caso si se quiere que aparezca el elemento em
 console.log(myArray)
 
 //splice
-myArray.splice(1,3) //El splice elimina el elemento indicado en el primer indice y el segundo indica cuantos elementos se van a eliminar
+myArray.splice(1, 3) //El splice elimina el elemento indicado en el primer indice y el segundo indica cuantos elementos se van a eliminar
 
 console.log(myArray)
 
 myArray = ["Juan", "David", "Gomez", 19, true]
 
-myArray.splice(1,3,"Nuevo Elemento")
+myArray.splice(1, 3, "Nuevo Elemento")
 console.log(myArray) //La misma operacion que el splice anterior en este caso se agrega un elemento el cual es insertado como un tercer argumento en el splice
